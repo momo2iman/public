@@ -5,6 +5,8 @@
   <path fill="none" stroke="#0284c7" stroke-width="2.4" stroke-linecap="round" d="M15 21c-1.5 0-2.5 1-2.5 2s1 2 2.5 2c2 0 4-4 6-4 1.5 0 2.5 1 2.5 2s-1 2-2.5 2c-2 0-4-4-6-4z"/>
 </svg>
 
+<img width="420" height="100" alt="watermark-default" src="https://github.com/user-attachments/assets/0fc0c982-d8f5-4ea7-8ba2-a6a32c650818" />
+
 
 # Rclone Personal Cloud Connector
 
