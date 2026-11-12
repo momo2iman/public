@@ -1,3 +1,11 @@
+<img width="38" height="38" alt="sub_rclone" src="https://github.com/user-attachments/assets/d56a183e-5011-45e2-8b13-62208257df0b" />
+<svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 38 38">
+  <rect x="4" y="4" width="30" height="30" rx="6" fill="#0284c7" stroke="#7dd3fc" stroke-width="1.8"/>
+  <path fill="#ffffff" d="M12 27a5 5 0 0 1-1-9.8 7 7 0 0 1 13.5-2A4.5 4.5 0 0 1 26 27H12z"/>
+  <path fill="none" stroke="#0284c7" stroke-width="2.4" stroke-linecap="round" d="M15 21c-1.5 0-2.5 1-2.5 2s1 2 2.5 2c2 0 4-4 6-4 1.5 0 2.5 1 2.5 2s-1 2-2.5 2c-2 0-4-4-6-4z"/>
+</svg>
+
+
 # Rclone Personal Cloud Connector
 
 Diese Anwendung ist ein rein privater, nicht-kommerzieller OAuth2-Client zur Anbindung von `rclone` an das persönliche Google Drive-Konto des Projektinhabers.
