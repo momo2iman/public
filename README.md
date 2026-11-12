@@ -8,6 +8,7 @@
 <img width="420" height="100" alt="watermark-default" src="https://github.com/user-attachments/assets/0fc0c982-d8f5-4ea7-8ba2-a6a32c650818" />
 
 
+
 # Rclone Personal Cloud Connector
 
 Diese Anwendung ist ein rein privater, nicht-kommerzieller OAuth2-Client zur Anbindung von `rclone` an das persönliche Google Drive-Konto des Projektinhabers.
