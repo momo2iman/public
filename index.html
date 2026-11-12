@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Rclone Personal OAuth2 Client – Datenschutz & Nutzungsbedingungen</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #0f172a;
+      --card: #1e293b;
+      --text: #f8fafc;
+      --muted: #94a3b8;
+      --accent: #38bdf8;
+      --border: #334155;
+    }
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg: #f8fafc;
+        --card: #ffffff;
+        --text: #0f172a;
+        --muted: #475569;
+        --accent: #0284c7;
+        --border: #cbd5e1;
+      }
+    }
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      max-width: 760px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    .card {
+      background-color: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.5rem 2rem;
+      margin-bottom: 1.5rem;
+    }
+    h1, h2 {
+      margin-top: 0;
+      color: var(--accent);
+    }
+    p, li {
+      color: var(--text);
+    }
+    .muted {
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+    code {
+      background: rgba(148, 163, 184, 0.15);
+      padding: 0.15rem 0.35rem;
+      border-radius: 4px;
+      font-family: monospace;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card" id="home">
+    <h1>Rclone Personal Cloud Connector</h1>
+    <p>Diese Anwendung ist ein rein privater, nicht-kommerzieller OAuth2-Client zur Anbindung von <code>rclone</code> an das persönliche Google Drive-Konto des Projektinhabers.</p>
+    <p class="muted">Status: Private Einzelplatz-Instanz (Keine öffentliche Registrierung möglich).</p>
+  </div>
+
+  <div class="card" id="privacy">
+    <h2>Datenschutzerklärung (Privacy Policy)</h2>
+    <p><strong>1. Zweck der Anwendung:</strong><br>
+    Dieser OAuth2-Client dient ausschließlich dem Kontoinhaber zur direkten Dateisynchronisation und Verschlüsselung zwischen dem lokalen Betriebssystem und dem eigenen Google Drive-Speicher über das Open-Source-Werkzeug <code>rclone</code>.</p>
+
+    <p><strong>2. Datenerhebung und Datenspeicherung:</strong><br>
+    Diese Anwendung erhebt, speichert, analysiert oder überträgt keinerlei personenbezogene Daten an Dritte oder externe Server. Die Kommunikation findet ausschließlich direkt über verschlüsselte HTTPS-Verbindungen zwischen dem lokalen Endgerät des Nutzers und den offiziellen Google Drive APIs statt.</p>
+
+    <p><strong>3. Umgang mit OAuth2-Tokens und Google-Nutzerdaten:</strong><br>
+    Die bei der Authentifizierung generierten OAuth2-Zugriffstokens werden ausschließlich lokal auf dem Endgerät des Projektinhabers (in der lokalen Konfigurationsdatei <code>rclone.conf</code> bzw. im lokalen System-Keyring) gespeichert. Die Nutzung und Übertragung von Informationen, die von Google APIs empfangen werden, erfolgt in strikter Übereinstimmung mit der <em>Google API Services User Data Policy</em>.</p>
+
+    <p><strong>4. Widerruf des Zugriffs:</strong><br>
+    Der Zugriff der Anwendung kann jederzeit in den Google-Kontoeinstellungen unter <em>Sicherheit &rarr; Verbindungen zu Drittanbieter-Apps und -Diensten</em> widerrufen sowie lokal durch Löschen des Tokens entfernt werden.</p>
+  </div>
+
+  <div class="card" id="terms">
+    <h2>Nutzungsbedingungen (Terms of Service)</h2>
+    <p><strong>1. Eingeschränkter Nutzerkreis:</strong><br>
+    Diese Anwendung ist privat und ausschließlich für die Nutzung durch den autorisierten Administrator des zugehörigen Google Cloud-Projekts bestimmt. Eine Nutzung durch Dritte ist ausgeschlossen.</p>
+
+    <p><strong>2. Haftungsausschluss:</strong><br>
+    Die Bereitstellung und Nutzung erfolgt auf eigenes Risiko des Projektinhabers ohne jegliche Gewährleistung.</p>
+  </div>
+
+  <p class="muted">Kontakt: Siehe hinterlegte Entwickler-Kontaktadresse im Google OAuth-Zustimmungsbildschirm.</p>
+
+</body>
+</html>
